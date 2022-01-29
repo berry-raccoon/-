@@ -29,13 +29,13 @@
 
 ## 哈希表
 关于哈希表，你该了解这些！
-1. 哈希表：可以拿数组当哈希表来用，但哈希值不要太大
-1. 哈希表：查找常用字符
-1. 哈希表：哈希值太大了，还是得用set
-1. 哈希表：用set来判断快乐数
-1. 哈希表：map等候多时了
-1. 哈希表：其实需要哈希的地方都能找到map的身影⭐
-1. 哈希表：这道题目我做过？
-1. 哈希表：解决了两数之和，那么能解决三数之和么？
-1. 双指针法：一样的道理，能解决四数之和
+1. 哈希表：可以拿数组当哈希表来用，但哈希值不要太大[242. 有效的字母异位词.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/242.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md)
+1. 哈希表：查找常用字符[1002. 查找共用字符.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/1002.%20%E6%9F%A5%E6%89%BE%E5%85%B1%E7%94%A8%E5%AD%97%E7%AC%A6.md)
+1. 哈希表：哈希值太大了，还是得用set[349. 两个数组的交集.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/349.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86.md)
+1. 哈希表：用set来判断快乐数[202. 快乐数.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/202.%20%E5%BF%AB%E4%B9%90%E6%95%B0.md)
+1. 哈希表：map等候多时了⭐[1. 两数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)
+1. 哈希表：其实需要哈希的地方都能找到map的身影⭐[454. 四数相加 II.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/454.%20%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0%20II.md)
+1. 哈希表：这道题目我做过？[383. 赎金信.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/383.%20%E8%B5%8E%E9%87%91%E4%BF%A1.md)
+1. 哈希表：解决了两数之和，那么能解决三数之和么？⭐
+1. 双指针法：一样的道理，能解决四数之和⭐
 1. 哈希表：总结篇！（每逢总结必经典）
