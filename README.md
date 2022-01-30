@@ -38,4 +38,5 @@
 1. 哈希表：这道题目我做过？[383. 赎金信.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/383.%20%E8%B5%8E%E9%87%91%E4%BF%A1.md)
 1. 哈希表：解决了两数之和，那么能解决三数之和么？⭐[15. 三数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/15.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md)
 1. 双指针法：一样的道理，能解决四数之和⭐[18. 四数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/18.%20%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.md)
-1. 哈希表：总结篇！（每逢总结必经典）(下次复习记得看哦）
+
+哈希表：总结篇！（每逢总结必经典）(下次复习记得看哦）
