@@ -48,7 +48,7 @@ https://github.com/youngyangyang04/leetcode-master
 1. 字符串：替换空格⭐(1. 扩充 2. 从后向前填充)[剑指 Offer 05. 替换空格.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%89%91%E6%8C%87%20Offer%2005.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md)
 1. 字符串：花式反转还不够！(空间复杂度O(1),翻转整体再局部)[151. 翻转字符串里的单词.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%AD%97%E7%AC%A6%E4%B8%B2/151.%20%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.md)
 1. 字符串：反转个字符串还有这个用处？(翻转局部再整体)[剑指 Offer 58 - II. 左旋转字符串.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%89%91%E6%8C%87%20Offer%2058%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
-1. 帮你把KMP算法学个通透⭐[28. 实现 strStr().md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%AD%97%E7%AC%A6%E4%B8%B2/28.%20%E5%AE%9E%E7%8E%B0%20strStr().md)
+1. 帮你把KMP算法学个通透⭐[28. 实现 strStr().md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%AD%97%E7%AC%A6%E4%B8%B2/28.%20%E5%AE%9E%E7%8E%B0%20strStr().md) and [kmp.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%AD%97%E7%AC%A6%E4%B8%B2/kmp.pdf)
 1. 字符串：KMP算法还能干这个！
 
 
