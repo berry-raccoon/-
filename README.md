@@ -5,11 +5,11 @@ https://github.com/youngyangyang04/leetcode-master
 ## 数组
 数组过于简单，但你该了解这些！
 1. 数组：每次遇到二分法，都是一看就会，一写就废
-  [704 二分查找.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/704%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.pdf)
+    [704 二分查找.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/704%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.pdf)
 2. 数组：就移除个元素很难么？
-  [27 移除元素 双指针.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/27%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%20%E5%8F%8C%E6%8C%87%E9%92%88.pdf)
+    [27 移除元素 双指针.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/27%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%20%E5%8F%8C%E6%8C%87%E9%92%88.pdf)
 4. 数组：有序数组的平方，还有序么？
-  [977 有序数组的平方 双指针.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/977%20%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9%20%E5%8F%8C%E6%8C%87%E9%92%88.pdf)
+    [977 有序数组的平方 双指针.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/977%20%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9%20%E5%8F%8C%E6%8C%87%E9%92%88.pdf)
 6. 数组：滑动窗口拯救了你[209 长度最小的子数组 滑动窗口.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/209%20%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3.pdf)
 7. 数组：这个循环可以转懵很多人！[59 螺旋矩阵2.pdf](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%95%B0%E7%BB%84/59%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B52.pdf)
 8. 数组：总结篇
@@ -59,9 +59,9 @@ https://github.com/youngyangyang04/leetcode-master
 ## 栈与队列
 1. 栈与队列：来看看栈和队列不为人知的一面half⭐[栈与队列理论基础.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)
 1. 栈与队列：我用栈来实现队列怎么样？half⭐[232. 用栈实现队列.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)
-3. 栈与队列：用队列实现栈还有点别扭
-4. 栈与队列：系统中处处都是栈的应用
-5. 栈与队列：匹配问题都是栈的强项
+3. 栈与队列：用队列实现栈还有点别扭[**225. 用队列实现栈.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md)
+4. 栈与队列：系统中处处都是栈的应用[**0020.有效的括号.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/0020.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md.md)
+5. 栈与队列：匹配问题都是栈的强项[**1047.删除字符串中的所有相邻重复项.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/1047.%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%9B%B8%E9%82%BB%E9%87%8D%E5%A4%8D%E9%A1%B9.md.md)
 6. 栈与队列：有没有想过计算机是如何处理表达式的？
 7. 栈与队列：滑动窗口里求最大值引出一个重要数据结构
 8. 栈与队列：求前 K 个高频元素和队列有啥关系？
