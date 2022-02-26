@@ -57,13 +57,18 @@ https://github.com/youngyangyang04/leetcode-master
 补充：[1559. 科学计数法](https://www.acwing.com/problem/content/description/1561/)这题星辰推荐我的，我觉得这题太好了，考察的是c++中string容器的应用。
 
 ## 栈与队列
-1. 栈与队列：来看看栈和队列不为人知的一面half⭐[栈与队列理论基础.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)
-1. 栈与队列：我用栈来实现队列怎么样？half⭐[232. 用栈实现队列.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)
-3. 栈与队列：用队列实现栈还有点别扭[**225. 用队列实现栈.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md)
-4. 栈与队列：系统中处处都是栈的应用[**0020.有效的括号.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/0020.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md.md)
-5. 栈与队列：匹配问题都是栈的强项[**1047.删除字符串中的所有相邻重复项.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/1047.%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%9B%B8%E9%82%BB%E9%87%8D%E5%A4%8D%E9%A1%B9.md.md)
-6. 栈与队列：有没有想过计算机是如何处理表达式的？
-7. 栈与队列：滑动窗口里求最大值引出一个重要数据结构
-8. 栈与队列：求前 K 个高频元素和队列有啥关系？
+1. 栈与队列：来看看栈和队列不为人知的一面【栈与队列的理论基础】half⭐[栈与队列理论基础.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.md)（灵魂四问）
+1. 栈与队列：我用栈来实现队列怎么样？【栈经典题目】😀[232. 用栈实现队列.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)
+3. 栈与队列：用队列实现栈还有点别扭【栈经典题目】😀[**225. 用队列实现栈.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md)（其实只需一个队列）
+4. 栈与队列：系统中处处都是栈的应用【栈经典题目】[**0020.有效的括号.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/0020.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md.md)
+5. 栈与队列：匹配问题都是栈的强项【栈经典题目】[**1047.删除字符串中的所有相邻重复项.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/1047.%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%9B%B8%E9%82%BB%E9%87%8D%E5%A4%8D%E9%A1%B9.md.md)
+6. 栈与队列：有没有想过计算机是如何处理表达式的？【栈经典题目】⭐[150. 逆波兰表达式求值]()()(1. string"+"转换成实际的加号; 2. char、string转int)
+7. 栈与队列：滑动窗口里求最大值引出一个重要数据结构【队列的经典题目】⭐[0239.滑动窗口最大值.md]()(单调队列)
+8. 栈与队列：求前 K 个高频元素和队列有啥关系？【队列的经典题目】⭐⭐[0347.前K个高频元素.md]()(背 1. map形式的大顶堆和小顶堆； 2. map的迭代。详见相关文档)
 
 栈与队列：总结篇！
+
+补充：
+
+>  我们用deque作为单调队列的底层数据结构，C++中deque是stack和queue默认的底层实现容器（这个我们之前已经讲过），deque是可以两边扩展的，而且deque里元素并不是严格的连续分布的。
+
