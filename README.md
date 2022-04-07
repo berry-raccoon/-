@@ -146,10 +146,10 @@ https://github.com/youngyangyang04/leetcode-master
 5. [回溯算法：电话号码的字母组合](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0017.电话号码的字母组合.md)回溯法的本质是解决很多层for循环
 6. [本周小结！（回溯算法系列一）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201030回溯周末总结.md)**用递归控制for循环嵌套的数量！**
 7. [回溯算法：求组合总和（二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0039.组合总和.md)
-8. [回溯算法：求组合总和（三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0040.组合总和II.md)
-9. [回溯算法：分割回文串](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0131.分割回文串.md)
-10. [回溯算法：复原IP地址](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0093.复原IP地址.md)
-11. [回溯算法：求子集问题！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0078.子集.md)
+8. [回溯算法：求组合总和（三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0040.组合总和II.md) 针对重复的组合，**去重**->考虑同一树层上，还是同一树枝上
+9. [回溯算法：分割回文串](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0131.分割回文串.md)**总结出来难究竟难在哪里也是一种需要锻炼的能力**
+10. [回溯算法：复原IP地址](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0093.复原IP地址.md)这道题再结合最近的软挑真的学到了很多。因为要分析全面所有特殊的情况。情况分为两类，一类是横的层，一类是竖的层。
+11. [回溯算法：求子集问题！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0078.子集.md)**那么组合问题和分割问题都是收集树的叶子节点，而子集问题是找树的所有节点！**
 12. [本周小结！（回溯算法系列二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201107回溯周末总结.md)
 13. [回溯算法：求子集问题（二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0090.子集II.md)
 14. [回溯算法：递增子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0491.递增子序列.md)
@@ -162,7 +162,7 @@ https://github.com/youngyangyang04/leetcode-master
 21. [回溯算法：解数独](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0037.解数独.md)
 22. [一篇总结带你彻底搞透回溯算法！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/回溯总结.md)
 
-回溯算法模板：
+- 回溯算法模板：
 
 ```
 void backtracking(参数) {
@@ -179,3 +179,12 @@ void backtracking(参数) {
 }
 ```
 
+- 说明
+
+在for循环中作文章（决定回溯的宽度）
+
+在终止条件处作文章（决定回溯的深度）
+
+- 画图
+
+  ![](D:\桌面\刷题攻略\Carl\images\回溯法画图规范.jpg)
