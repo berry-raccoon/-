@@ -133,7 +133,11 @@ https://github.com/youngyangyang04/leetcode-master
 
 总结：1. 需要遍历整颗二叉树时，最后return，当找到值时，直接return（27，29）; 2. 需要叶子节点的时候cur->left, cur->right（16， 18）；3. 搜索二叉树和中序遍历是好朋友（25，26）4.构造二叉树，传递左右区间，（19，20，33）
 
+树形DP
+
 # 回溯算法
+
+**画出回溯树，问题解决了80%**
 
 题目分类大纲如下：
 
@@ -146,30 +150,31 @@ https://github.com/youngyangyang04/leetcode-master
 5. [回溯算法：电话号码的字母组合](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0017.电话号码的字母组合.md)回溯法的本质是解决很多层for循环
 6. [本周小结！（回溯算法系列一）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201030回溯周末总结.md)**用递归控制for循环嵌套的数量！**
 7. [回溯算法：求组合总和（二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0039.组合总和.md)
-8. [回溯算法：求组合总和（三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0040.组合总和II.md) 针对重复的组合，**去重**->考虑同一树层上，还是同一树枝上
+8. [回溯算法：求组合总和（三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0040.组合总和II.md) 针对重复的组合，**去重**->考虑同一树层上，还是同一树枝上（**“树枝去重”和“树层去重”**）
 9. [回溯算法：分割回文串](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0131.分割回文串.md)**总结出来难究竟难在哪里也是一种需要锻炼的能力**
 10. [回溯算法：复原IP地址](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0093.复原IP地址.md)这道题再结合最近的软挑真的学到了很多。因为要分析全面所有特殊的情况。情况分为两类，一类是横的层，一类是竖的层。
 11. [回溯算法：求子集问题！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0078.子集.md)**那么组合问题和分割问题都是收集树的叶子节点，而子集问题是找树的所有节点！**
 12. [本周小结！（回溯算法系列二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201107回溯周末总结.md)
-13. [回溯算法：求子集问题（二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0090.子集II.md)
+13. [回溯算法：求子集问题（二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0090.子集II.md)去重1：used；去重2：set; 去重3：`if (i > startIndex && nums[i] == nums[i - 1] ) {continue;}`
 14. [回溯算法：递增子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0491.递增子序列.md)
 15. [回溯算法：排列问题！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0046.全排列.md)
 16. [回溯算法：排列问题（二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0047.全排列II.md)
 17. [本周小结！（回溯算法系列三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201112回溯周末总结.md)
 18. [回溯算法去重问题的另一种写法](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/回溯算法去重问题的另一种写法.md)
-19. [回溯算法：重新安排行程](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0332.重新安排行程.md)
-20. [回溯算法：N皇后问题](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0051.N皇后.md)
+19. [回溯算法：重新安排行程](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0332.重新安排行程.md):star:这个题目上我看到了张浩野的影子
+20. [回溯算法：N皇后问题](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0051.N皇后.md):star:回溯法一定要画出回溯的那颗树
 21. [回溯算法：解数独](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0037.解数独.md)
 22. [一篇总结带你彻底搞透回溯算法！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/回溯总结.md)
 
 - 回溯算法模板：
 
-```
+```c++
 void backtracking(参数) {
     if (终止条件) {
         存放结果;
         return;
     }
+    // unordered_set<int> uset; // 定义set对同一节点下的本层去重
 	// 在for循环里i可以遍历所有的情况，再根据题意修改初始值与条件
     for (选择：本层集合中元素（树中节点孩子的数量就是集合的大小）) {
         处理节点;
@@ -179,12 +184,23 @@ void backtracking(参数) {
 }
 ```
 
+
+
 - 说明
 
-在for循环中作文章（决定回溯的宽度）
+  在for循环中作文章（决定回溯的宽度）
 
-在终止条件处作文章（决定回溯的深度）
+  在终止条件处作文章（决定回溯的深度）
 
 - 画图
 
   ![](D:\桌面\刷题攻略\Carl\images\回溯法画图规范.jpg)
+
+- 套路
+
+  子集问题：取叶子节点，if里不要return（13，14）；
+
+  去重（对元素进行排序，再used\<bool\>进行统计)：`vecotr<int> used`可以去掉同层相邻重复部分，但是`unordered_set<int> uset`可以去同层所有重复部分（14）；
+  
+  排列：不使用startIndex
+
