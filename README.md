@@ -43,7 +43,7 @@ https://github.com/youngyangyang04/leetcode-master
 1. 哈希表：map等候多时了⭐[1. 两数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/1.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)
 1. 哈希表：其实需要哈希的地方都能找到map的身影⭐[454. 四数相加 II.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/454.%20%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0%20II.md)
 1. 哈希表：这道题目我做过？[383. 赎金信.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/383.%20%E8%B5%8E%E9%87%91%E4%BF%A1.md)
-1. 哈希表：解决了两数之和，那么能解决三数之和么？⭐[15. 三数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/15.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md)
+1. 哈希表：解决了两数之和，那么能解决三数之和么？⭐[15. 三数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/15.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md)（再做一遍我也不一定做得出）
 1. 双指针法：一样的道理，能解决四数之和⭐[18. 四数之和.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E5%93%88%E5%B8%8C%E8%A1%A8/18.%20%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.md)
 
 哈希表：总结篇！（每逢总结必经典）(下次复习记得看哦）
@@ -106,12 +106,13 @@ https://github.com/youngyangyang04/leetcode-master
 9. [二叉树：看看这些树的最大深度](./problems/0104.二叉树的最大深度.md)
 10. [二叉树：看看这些树的最小深度](./problems/0111.二叉树的最小深度.md)
 11. [二叉树：我有多少个节点？](./problems/0222.完全二叉树的节点个数.md)（2^k == (2 << k)
-12. [二叉树：我平衡么？](./problems/0110.平衡二叉树.md)
+12. [二叉树：我平衡么？](./problems/0110.平衡二叉树.md)（:star:先分析用什么方式遍历，再考虑以什么方式返回，最后考虑，立刻返回还是等等呢）
+
 13. [二叉树：找我的所有路径？](./problems/0257.二叉树的所有路径.md)
 14. [本周总结！二叉树系列二](./problems/周总结/20201003二叉树周末总结.md)
 15. [二叉树：以为使用了递归，其实还隐藏着回溯](./problems/二叉树中递归带着回溯.md)
 16. [二叉树：做了这么多题目了，我的左叶子之和是多少？](./problems/0404.左叶子之和.md)
-17. [二叉树：我的左下角的值是多少？](./problems/0513.找树左下角的值.md)
+17. [二叉树：我的左下角的值是多少？](./problems/0513.找树左下角的值.md)(中序遍历)
 18. [二叉树：路径总和](./problems/0112.路径总和.md)
 19. [二叉树：构造二叉树登场！](./problems/0106.从中序与后序遍历序列构造二叉树.md)（可以复习）
 20. [二叉树：构造一棵最大的二叉树](./problems/0654.最大二叉树.md)
@@ -204,3 +205,34 @@ void backtracking(参数) {
   
   排列：不使用startIndex
 
+# 贪心算法
+
+题目分类大纲如下：
+
+![贪心算法大纲](https://code-thinking-1253855093.file.myqcloud.com/pics/20210917104315.png)
+
+1. [关于贪心算法，你该了解这些！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/贪心算法理论基础.md)
+2. [贪心算法：分发饼干](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0455.分发饼干.md)
+3. [贪心算法：摆动序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0376.摆动序列.md)
+4. [贪心算法：最大子序和](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0053.最大子序和.md)
+5. [本周小结！（贪心算法系列一）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201126贪心周末总结.md)
+6. [贪心算法：买卖股票的最佳时机II](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0122.买卖股票的最佳时机II.md)
+7. [贪心算法：跳跃游戏](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0055.跳跃游戏.md)（要明确贪心贪的是什么）
+8. [贪心算法：跳跃游戏II](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0045.跳跃游戏II.md)
+9. [贪心算法：K次取反后最大化的数组和](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/1005.K次取反后最大化的数组和.md)
+10. [本周小结！（贪心算法系列二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201203贪心周末总结.md)
+11. [贪心算法：加油站](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0134.加油站.md)
+12. [贪心算法：分发糖果](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0135.分发糖果.md)
+13. [贪心算法：柠檬水找零](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0860.柠檬水找零.md)
+14. [贪心算法：根据身高重建队列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0406.根据身高重建队列.md)
+15. [本周小结！（贪心算法系列三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201217贪心周末总结.md)
+16. [贪心算法：根据身高重建队列（续集）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/根据身高重建队列（vector原理讲解）.md)
+17. [贪心算法：用最少数量的箭引爆气球](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0452.用最少数量的箭引爆气球.md)
+18. [贪心算法：无重叠区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0435.无重叠区间.md)
+19. [贪心算法：划分字母区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0763.划分字母区间.md)
+20. [贪心算法：合并区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0056.合并区间.md)
+21. [本周小结！（贪心算法系列四）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201224贪心周末总结.md)
+22. [贪心算法：单调递增的数字](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0738.单调递增的数字.md)
+23. [贪心算法：买卖股票的最佳时机含手续费](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0714.买卖股票的最佳时机含手续费.md)
+24. [贪心算法：我要监控二叉树！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0968.监控二叉树.md)
+25. [贪心算法：总结篇！（每逢总结必经典）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/贪心算法总结篇.md)
