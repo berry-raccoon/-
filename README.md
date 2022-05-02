@@ -226,7 +226,7 @@ void backtracking(参数) {
 13. [贪心算法：柠檬水找零](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0860.柠檬水找零.md)
 14. [贪心算法：根据身高重建队列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0406.根据身高重建队列.md)
 15. [本周小结！（贪心算法系列三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201217贪心周末总结.md)
-16. [贪心算法：根据身高重建队列（续集）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/根据身高重建队列（vector原理讲解）.md)
+16. [贪心算法：根据身高重建队列（续集）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/根据身高重建队列（vector原理讲解）.md)（觉得可以好好分析一下）
 17. [贪心算法：用最少数量的箭引爆气球](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0452.用最少数量的箭引爆气球.md)
 18. [贪心算法：无重叠区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0435.无重叠区间.md)
 19. [贪心算法：划分字母区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0763.划分字母区间.md)
