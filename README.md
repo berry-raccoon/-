@@ -69,8 +69,7 @@ https://github.com/youngyangyang04/leetcode-master
 1. 栈与队列：我用栈来实现队列怎么样？【栈经典题目】😀[232. 用栈实现队列.md](https://github.com/berry-raccoon/Programming-Practice/blob/main/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)（不需要全部倒空）
 3. 栈与队列：用队列实现栈还有点别扭【栈经典题目】😀[**225. 用队列实现栈.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/225.%20%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md)（其实只需一个队列）
 4. 栈与队列：系统中处处都是栈的应用【栈经典题目】[**0020.有效的括号.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/0020.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md.md)
-5. 栈与队列：匹配问题都是栈的强项【栈经典题目】[**1047.删除字符串中的所有相邻重复项.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/1047.%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%9B%B8%E9%82%BB%E9%87%8D%E5%A4%8D%E9%A1%B9.md.md)
-<<<<<<< HEAD
+5. 栈与队列：匹配问题都是栈的强项【栈经典题目】[**1047.删除字符串中的所有相邻重复项.md.md**](https://github.com/berry-raccoon/Programming-Practice/blob/master/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/1047.%E5%88%A0%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%9B%B8%E9%82%BB%E9%87%8D%E5%A4%8D%E9%A1%B9.md.md)(我该怎么想办法记住==string居然有back、push_back、pop_back==这些方法)
 6. 栈与队列：有没有想过计算机是如何处理表达式的？【栈经典题目】⭐[150. 逆波兰表达式求值]()()(1. string"+"转换成实际的加号; 2. char、string转int)
 7. 栈与队列：滑动窗口里求最大值引出一个重要数据结构【队列的经典题目】⭐[0239.滑动窗口最大值.md]()(单调队列)
 8. 栈与队列：求前 K 个高频元素和队列有啥关系？【队列的经典题目】⭐⭐[0347.前K个高频元素.md]()(背 1. map形式的大顶堆和小顶堆； 2. map的迭代。详见链接文档和文档文件夹下的pdf文件)
@@ -211,6 +210,13 @@ void backtracking(参数) {
 
 ![贪心算法大纲](https://code-thinking-1253855093.file.myqcloud.com/pics/20210917104315.png)
 
+贪心算法一般分为如下四步：
+
+- 将问题分解为若干个子问题
+- 找出适合的贪心策略
+- 求解每一个子问题的最优解
+- 将局部最优解堆叠成全局最优解
+
 1. [关于贪心算法，你该了解这些！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/贪心算法理论基础.md)
 2. [贪心算法：分发饼干](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0455.分发饼干.md)
 3. [贪心算法：摆动序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0376.摆动序列.md)
@@ -229,10 +235,96 @@ void backtracking(参数) {
 16. [贪心算法：根据身高重建队列（续集）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/根据身高重建队列（vector原理讲解）.md)（觉得可以好好分析一下）
 17. [贪心算法：用最少数量的箭引爆气球](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0452.用最少数量的箭引爆气球.md)
 18. [贪心算法：无重叠区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0435.无重叠区间.md)
-19. [贪心算法：划分字母区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0763.划分字母区间.md)
+19. [贪心算法：划分字母区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0763.划分字母区间.md)可以与回溯问题的第九题对照
 20. [贪心算法：合并区间](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0056.合并区间.md)
-21. [本周小结！（贪心算法系列四）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201224贪心周末总结.md)
+21. [本周小结！（贪心算法系列四）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20201224贪心周末总结.md)区间问题首先要考虑按左边界还是右边界排序
 22. [贪心算法：单调递增的数字](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0738.单调递增的数字.md)
 23. [贪心算法：买卖股票的最佳时机含手续费](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0714.买卖股票的最佳时机含手续费.md)
 24. [贪心算法：我要监控二叉树！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0968.监控二叉树.md)
 25. [贪心算法：总结篇！（每逢总结必经典）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/贪心算法总结篇.md)
+
+
+
+#  动态规划
+
+动态规划专题已经开始啦，来不及解释了，小伙伴们上车别掉队！
+
+![img](https://code-thinking.cdn.bcebos.com/pics/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-%E6%80%BB%E7%BB%93%E5%A4%A7%E7%BA%B21.jpg)
+
+1. [关于动态规划，你该了解这些！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/动态规划理论基础.md)
+2. [动态规划：斐波那契数](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0509.斐波那契数.md)
+3. [动态规划：爬楼梯](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0070.爬楼梯.md)
+4. [动态规划：使用最小花费爬楼梯](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0746.使用最小花费爬楼梯.md)
+5. [本周小结！（动态规划系列一）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210107动规周末总结.md)
+6. [动态规划：不同路径](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0062.不同路径.md)
+7. [动态规划：不同路径还不够，要有障碍！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0063.不同路径II.md)
+8. [动态规划：整数拆分，你要怎么拆？](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0343.整数拆分.md)
+9. [动态规划：不同的二叉搜索树](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0096.不同的二叉搜索树.md)
+10. [本周小结！（动态规划系列二）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210114动规周末总结.md)
+
+背包问题系列：
+
+![背包问题大纲](https://code-thinking.cdn.bcebos.com/pics/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.png)
+
+1. [动态规划：关于01背包问题，你该了解这些！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/背包理论基础01背包-1.md)
+2. [动态规划：关于01背包问题，你该了解这些！（滚动数组）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/背包理论基础01背包-2.md)
+3. [动态规划：分割等和子集可以用01背包！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0416.分割等和子集.md)
+4. [动态规划：最后一块石头的重量 II](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/1049.最后一块石头的重量II.md)
+5. [本周小结！（动态规划系列三）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210121动规周末总结.md)
+6. [动态规划：目标和！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0494.目标和.md)
+7. [动态规划：一和零！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0474.一和零.md)
+8. [动态规划：关于完全背包，你该了解这些！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/背包问题理论基础完全背包.md)
+9. [动态规划：给你一些零钱，你要怎么凑？](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0518.零钱兑换II.md)
+10. [本周小结！（动态规划系列四）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210128动规周末总结.md)
+11. [动态规划：Carl称它为排列总和！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0377.组合总和Ⅳ.md)
+12. [动态规划：以前我没得选，现在我选择再爬一次！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0070.爬楼梯完全背包版本.md)
+13. [动态规划： 给我个机会，我再兑换一次零钱](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0322.零钱兑换.md)
+14. [动态规划：一样的套路，再求一次完全平方数](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0279.完全平方数.md)
+15. [本周小结！（动态规划系列五）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210204动规周末总结.md)
+16. [动态规划：单词拆分](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0139.单词拆分.md)
+17. [动态规划：关于多重背包，你该了解这些！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/背包问题理论基础多重背包.md)
+18. [听说背包问题很难？ 这篇总结篇来拯救你了](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/背包总结篇.md)
+
+打家劫舍系列：
+
+1. [动态规划：开始打家劫舍！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0198.打家劫舍.md)
+2. [动态规划：继续打家劫舍！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0213.打家劫舍II.md)
+3. [动态规划：还要打家劫舍！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0337.打家劫舍III.md)
+
+股票系列：
+
+![股票问题总结](https://code-thinking.cdn.bcebos.com/pics/%E8%82%A1%E7%A5%A8%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.jpg)
+
+1. [动态规划：买卖股票的最佳时机](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0121.买卖股票的最佳时机.md)
+2. [动态规划：本周我们都讲了这些（系列六）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210225动规周末总结.md)
+3. [动态规划：买卖股票的最佳时机II](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0122.买卖股票的最佳时机II（动态规划）.md)
+4. [动态规划：买卖股票的最佳时机III](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0123.买卖股票的最佳时机III.md)
+5. [动态规划：买卖股票的最佳时机IV](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0188.买卖股票的最佳时机IV.md)
+6. [动态规划：最佳买卖股票时机含冷冻期](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0309.最佳买卖股票时机含冷冻期.md)
+7. [动态规划：本周我们都讲了这些（系列七）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/周总结/20210304动规周末总结.md)
+8. [动态规划：买卖股票的最佳时机含手续费](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0714.买卖股票的最佳时机含手续费（动态规划）.md)
+9. [动态规划：股票系列总结篇](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/动态规划-股票问题总结篇.md)
+
+子序列系列：
+
+![img](https://code-thinking.cdn.bcebos.com/pics/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-%E5%AD%90%E5%BA%8F%E5%88%97%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.jpg)
+
+1. [动态规划：最长递增子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0300.最长上升子序列.md)
+2. [动态规划：最长连续递增序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0674.最长连续递增序列.md)
+3. [动态规划：最长重复子数组](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0718.最长重复子数组.md)
+4. [动态规划：最长公共子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/1143.最长公共子序列.md)
+5. [动态规划：不相交的线](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/1035.不相交的线.md)
+6. [动态规划：最大子序和](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0053.最大子序和（动态规划）.md)
+7. [动态规划：判断子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0392.判断子序列.md)
+8. [动态规划：不同的子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0115.不同的子序列.md)
+9. [动态规划：两个字符串的删除操作](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0583.两个字符串的删除操作.md)
+10. [动态规划：编辑距离](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0072.编辑距离.md)
+11. [为了绝杀编辑距离，Carl做了三步铺垫，你都知道么？](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/为了绝杀编辑距离，卡尔做了三步铺垫.md)
+12. [动态规划：回文子串](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0647.回文子串.md)
+13. [动态规划：最长回文子序列](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0516.最长回文子序列.md)
+14. [动态规划总结篇](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/动态规划总结篇.md)
+
+
+
+# 搜索与图论（自创）
+
