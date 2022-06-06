@@ -28,6 +28,13 @@ $ git config --global user.email "your_email@example.com"
 
 ```
 
+:chestnut:
+
+```
+git config --global user.name "berry-raccoon"
+git config --global user.email "987365329@qq.com"
+```
+
 初始设置完成后，会在"~/.gitconfig"文件夹中显示。
 
 **GitHub上创建账户**
@@ -134,7 +141,11 @@ remote拓展
 $ git remote set-url origin git@github.com:ppreyer/first_app.git
 ```
 
+:chestnut:
 
+```
+git remote set-url origin git@git.zhlh6.cn:berry-raccoon/Programming-Practice.git
+```
 
 ## 将文件上传
 

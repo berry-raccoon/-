@@ -18,6 +18,8 @@ https://github.com/youngyangyang04/leetcode-master
 
 补充：学习快速排序（分而治之）、[剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 
+5.25复刷心得：数组的平方（指针是数组的好朋友）
+
 # 链表
 
 关于链表，你该了解这些！
@@ -31,7 +33,9 @@ https://github.com/youngyangyang04/leetcode-master
 
 链表：总结篇！
 
-心得：链表可以想象成现实生活中的链子，那些指针无非是让链表操作更加便捷，不过有一个差别就是你要找一个节点，你必须从头开始找。无论是添加或删除一个节点，其操作都是会影响后面的链表结构的。
+首刷心得：链表可以想象成现实生活中的链子，那些指针无非是让链表操作更加便捷，不过有一个差别就是你要找一个节点，你必须从头开始找。无论是添加或删除一个节点，其操作都是会影响后面的链表结构的。
+
+2.25复刷心得：删除链表的倒数第 N 个结点（dummyHead是个好东西）
 
 # 哈希表
 
@@ -104,7 +108,7 @@ https://github.com/youngyangyang04/leetcode-master
 8. [二叉树：我对称么？](./problems/0101.对称二叉树.md)
 9. [二叉树：看看这些树的最大深度](./problems/0104.二叉树的最大深度.md)
 10. [二叉树：看看这些树的最小深度](./problems/0111.二叉树的最小深度.md)
-11. [二叉树：我有多少个节点？](./problems/0222.完全二叉树的节点个数.md)（2^k == (2 << k)
+11. [二叉树：我有多少个节点？](./problems/0222.完全二叉树的节点个数.md)1. 2^k == (2 << k)； 2. 普通二叉树计算节点方式：层序遍历，递归； 3. 完全二叉树的计算方式。
 12. [二叉树：我平衡么？](./problems/0110.平衡二叉树.md)（:star:先分析用什么方式遍历，再考虑以什么方式返回，最后考虑，立刻返回还是等等呢）
 
 13. [二叉树：找我的所有路径？](./problems/0257.二叉树的所有路径.md)
@@ -243,7 +247,13 @@ void backtracking(参数) {
 24. [贪心算法：我要监控二叉树！](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/0968.监控二叉树.md)
 25. [贪心算法：总结篇！（每逢总结必经典）](https://gitee.com/programmercarl/leetcode-master/blob/master/problems/贪心算法总结篇.md)
 
+# 图论
 
+图论算法是自己加进去的，其大纲是依据[y总的搜索与图论](https://www.acwing.com/blog/content/405/)，包括自己在力扣上找的题目的拓展。
+
+图论思维导图链接：https://gitmind.cn/app/doc/943532529bd2f0b0574d97964be54de6，其中染色法判别二分图和匈牙利算法还没有加入。
+
+![](D:\桌面\刷题攻略\编程练习\images\图论思维导图.png)
 
 #  动态规划
 
@@ -326,5 +336,5 @@ void backtracking(参数) {
 
 
 
-# 搜索与图论（自创）
+
 
