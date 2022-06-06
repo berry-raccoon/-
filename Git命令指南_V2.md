@@ -1,4 +1,12 @@
+# 前言
+
 官方中文文档：https://docs.github.com/cn/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+
+**git的作用**
+
+1. 版本控制；
+2. 协同开发；
+3. 代码备份。
 
 **更新说明**
 
@@ -16,6 +24,15 @@ http://git-scm.com/downloads
 
 # Git初始设置
 
+**查看git的配置列表**
+
+```shell
+git config --list
+```
+
+补充：全局变量
+ --global  表示全局的，即当前用户都有效，该配置会出现在 ~/.gitconfig 文件中，~表示当前用户的目录，比如我的是：C:\Users\username\.gitconfig ，打开该文件你会发现如下图所示的内容：
+
 **Git全局设置**
 
 "Firstname Lastname"：用户名
@@ -27,6 +44,8 @@ $ git config --global user.name "Firstname Lastname"
 $ git config --global user.email "your_email@example.com"
 
 ```
+
+注：如果去掉--global，则代表是局部变量，只对当前仓库有效，前仓库根目录/.git/config文件下，局部变量覆盖全局变量！
 
 :chestnut:
 
@@ -76,7 +95,7 @@ git config --global user.email "987365329@qq.com"
 
 # 更新仓库内容
 
-![](D:\桌面\刷题攻略\Carl\git上传文件简易版.png)
+![](.\git上传文件简易版.png)
 
 ```shell
 $ cd filename  // 转到filename文件夹下
